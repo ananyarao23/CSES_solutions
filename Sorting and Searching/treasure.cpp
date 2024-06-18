@@ -21,21 +21,27 @@ int binSearch(vector<ll> w, ll vac){
 }
 
 int main(){
-    multiset<int,greater<int>> m;
-    for (int i = 0; i < 10; i++)
+    // multiset<int,greater<int>> m;
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     m.insert(i*i);
+    // }
+    // for (auto it = m.begin(); it != m.end(); it++)
+    // {
+    //     cout<<*it<<" ";
+    // }
+    // cout<<endl;
+    // for (int i = 0; i < 20; i++)
+    // {
+    //     cout<<i<<" "<<*(m.lower_bound(i))<<" ";
+    //     cout<<*(m.upper_bound(i))<<endl;
+    //     cout<<endl;
+    // }
+    bool a[5];
+    for (int i = 0; i < 5; i++)
     {
-        m.insert(i*i);
+        cout<<a[i]<<" ";
     }
-    for (auto it = m.begin(); it != m.end(); it++)
-    {
-        cout<<*it<<" ";
-    }
-    cout<<endl;
-    for (int i = 0; i < 20; i++)
-    {
-        cout<<i<<" "<<*(m.lower_bound(i))<<" ";
-        cout<<*(m.upper_bound(i))<<endl;
-        cout<<endl;
-    }
+    
     
 }
